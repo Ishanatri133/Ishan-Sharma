@@ -350,26 +350,7 @@ nav ul li a:hover::after {
   cursor: pointer;
   border-radius: 5px 5px 0 0;
 }
-.projects .project-section .content .fifth {
-  height: 100px;
-  width: 100%;
-  padding: 10px;
-  background-size: cover !important;
-  background-position: center !important;
-  background-repeat: no-repeat !important;
-  cursor: pointer;
-  border-radius: 5px 5px 0 0;
-}
-.projects .project-section .content .sixth {
-  height: 100px;
-  width: 100%;
-  padding: 10px;
-  background-size: cover !important;
-  background-position: center !important;
-  background-repeat: no-repeat !important;
-  cursor: pointer;
-  border-radius: 5px 5px 0 0;
-}
+
 .projects .project-section .content .seventh {
   height: 100px;
   width: 100%;
