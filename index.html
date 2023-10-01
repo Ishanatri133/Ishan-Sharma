@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ishan Sharma- Portfolio</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://use.fontawesome.com/a71e5ce1d6.js"></script>
+</head>
+
+<body>
+    <nav>
+        <p>Ishan Sharma</p>
+
+        <button class="burger" id="burger">
+            &#9776
+        </button>
+
+        <ul>
+            <li><a id="home-anchor" href="#">Home</a></li>
+            <li><a id="stack-anchor" href="#tech-stack">Tech Stack</a></li>
+            <!-- <li><a id="comm-anchor" href="#communities">Communities</a></li> -->
+            <li><a id="edu-anchor" href="#education">Education</a></li>
+            <li><a id="exp-anchor" href="#experience">Experience</a></li>
+            <li><a id="proj-anchor" href="#projects">Projects</a></li>
+        </ul>
+    </nav>
+
+    <div class="toggle-bar">
+        <button class="mode" onClick="toggleTheme()"><i id="icon" class="fa fa-moon-o" aria-hidden="true"></i></button>
+    </div>
+
+    <div class="profile">
+        <img src="assets\img\imgkurta.jpg" alt="">
+        <div class="bio-text">
+            <h2>About Me</h2><span></span>
+            <p>
+                ML enthusiast | Web Development| Flutter | Data Analyst | 
+            </p>
+            <p> Hello, I am Ishan, a third-year student at VIPS-TC, deeply passionate about technology, the cosmos, and
+                football. My diverse skill set includes web development and machine learning, where I excel.</p>
+            <p>
+                In addition to my broad interests, I possess proficiency as a data analyst and Flutter developer. My
+contributions to various start-ups have encompassed roles such as Business Development and Public
+Relations, Consulting Intern, UI/UX Designer, Business Analyst Quality Assurance, and Data Analysis. This
+wealth of experience has not only refined my communication and public speaking skills but also equipped me
+to excel in the realms of data analysis and mobile app development.
+            </p>
+
+            <div class="social-media">
+                <i class="fa fa-linkedin" aria-hidden="true"><a href="https://www.linkedin.com/in/ishansharma133/"
+                    target="_blank" rel="noopener">LinkedIn</a></i>
+                <i class="fa fa-twitter" aria-hidden="true"><a href="https://twitter.com/ishan_atri133" target="_blank"
+                        rel="noopener">Twitter</a></i>
+                <i class="fa fa-github" aria-hidden="true"><a href="https://github.com/Ishanatri133" target="_blank"
+                        rel="noopener">GitHub</a></i>
+                <i class="fa fa-download" aria-hidden="true"><a
+                        href="assets\resume\resume.pdf" target="_blank"
+                        rel="noopener">Résumé</a></i>
+                <i class="fa fa-envelope" aria-hidden="true"><a href="mailto:ishan.atri.133@gmail.com" target="_blank"
+                        rel="noopener">Email Me</a></i>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="tech-stack" id="tech-stack">
+        <h2>Tech Stack</h2><span></span>
+
+        <div class="stack-imgs">
+            <img src="assets/img/html5.svg" alt="HTML 5">
+            <img src="assets/img/css.svg" alt="CSS">
+            <img src="assets/img/javascript.svg" alt="JavaScript">
+            <img src="assets\img\Python-logo-notext.svg.webp" alt="Python">
+            <img src="assets\img\Java-Logo.png" alt="Java">
+            <img src="assets/img/firebase.svg" alt="Firebase">
+            <img src="assets\img\Picture6-1.svg" alt="React">
+            <img src="assets\img\unnamed.jpg" alt="Flutter">
+        </div>
+    </div> -->
+    <div class="tech-stack" id="tech-stack">
+        <h2>Tech Stack</h2><span></span>
+    
+        <div class="stack-imgs">
+            <!-- Images for Technologies -->
+            <img src="assets/img/html5.svg" alt="HTML 5">
+            <img src="assets/img/css.svg" alt="CSS">
+            <img src="assets/img/javascript.svg" alt="JavaScript">
+            <img src="assets\img\Python-logo-notext.svg.webp" alt="Python">
+            <img src="assets\img\Java-Logo.png" alt="Java">
+            <img src="assets/img/firebase.svg" alt="Firebase">
+            
+        </div>
+    </div>
+    
+    <div class="frameworks" id="frameworks">
+        <h2></h2><span></span>
+    
+        <div class="framework-imgs">
+            <img src="assets\img\Picture6-1.svg" alt="React">
+            <img src="assets/img/social-default-image.png" alt="Power BI">
+            <img src="assets/img/nextjs-icon.svg" alt="Next JS">
+            <img src="assets/img/TensorFlow_logo.svg.png" alt="Tensor Flow">
+            <img src="assets/img/pngimg.com - mysql_PNG9.png" alt="MySQL">
+            <img src="assets\img\unnamed.jpg" alt="Flutter">
+        </div>
+    </div>
+    
+
+    <!-- <div class="communities" id="communities">
+        <h2>Communities</h2><span></span>
+
+        <div class="communities-details">
+            <div class="details angular-kenya">
+                <img class="logos" src="assets/img/angular-ke-logo.png" alt="Angular Kenya Logo">
+                <span class="role">Lead, Angular Kenya</span>
+                <p class="description">Angular Kenya is a community of developers passionate about sharing knowledge about the 
+                    Angular framework, experiences, best practices, and guidance while learning from others 
+                    simultaneously.</p>
+                <div class="socials">
+                    <i class="fa fa-twitter" aria-hidden="true"><a href="https://twitter.com/angular_kenya"
+                            target="_blank" rel="noopener">Twitter</a></i>
+                    <i class="fa fa-linkedin" aria-hidden="true"><a
+                            href="https://www.linkedin.com/company/angular-kenya/" target="_blank"
+                            rel="noopener">LinkedIn</a></i>
+
+                </div>
+            </div>
+            <div class="details abnrbi">
+                <img class="logos" src="assets/img/anitab_nrbi.png" alt="AnitaB.org Nairobi Logo">
+                <span class="role">Co-Lead & Male Ally, AnitaB.org Nairobi</span>
+                <p class="description">We envision and work towards creating a future where people who imagine and build
+                    technology mirror
+                    the societies for which they build for. We offer a platform to connect, inspire and guide women in
+                    computing , and organizations that have technology innovation as a strategic imperative.</p>
+                <div class="socials">
+                    <i class="fa fa-twitter" aria-hidden="true"><a href="https://twitter.com/AnitaB_org" target="_blank"
+                            rel="noopener">Twitter</a></i>
+                    <i class="fa fa-linkedin" aria-hidden="true"><a href="https://www.linkedin.com/company/anitab-org/"
+                            target="_blank" rel="noopener">LinkedIn</a></i>
+                </div>
+
+            </div>
+
+            <div class="details gdgnrbi">
+                <img class="logos" src="assets/img/gdg_nairobi.png" alt="GDG Nairobi Logo">
+                <span class="role">Co-Organizer, GDG Nairobi</span>
+                <p class="description">Organize and create events in Nairobi, Kenya with the aim of spreading knowledge
+                    about technology and
+                    sharing experiences in building user-centered solutions using Google technologies.</p>
+                <div class="socials">
+                    <i class="fa fa-twitter" aria-hidden="true"><a href="https://twitter.com/GDG_Nairobi"
+                            target="_blank" rel="noopener">Twitter</a></i>
+                    <i class="fa fa-linkedin" aria-hidden="true"><a href="https://www.linkedin.com/company/gdg-nairobi/"
+                            target="_blank" rel="noopener">LinkedIn</a></i>
+                </div>
+
+            </div>
+        </div>
+    </div> -->
+
+    <div class="experience" id="experience">
+        <h2>Experience</h2><span></span>
+    
+        <div class="exp">
+            <span class="role"><i class="fa fa-laptop" aria-hidden="true"></i>
+                Flutter Development Training</span>
+            <span class="company"><i class="fa fa-building-o" aria-hidden="true"></i>
+                Brain Mentors Pvt Ltd, Delhi</span>
+            <span class="date"><i class="fa fa-clock-o" aria-hidden="true"></i>
+                August 2023</span>
+            <span class="date">
+                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                Dart, Firebase
+            </span>
+            <p class="description">Working on various Flutter Projects and using firebase to 
+                make it compatible with the backend
+            </p><br>
+        </div>
+    
+        <div class="exp" style="margin-top: 20px;"> <!-- Add margin-top -->
+            <span class="role"><i class="fa fa-laptop" aria-hidden="true"></i>
+                Contributor</span>
+            <span class="company"><i class="fa fa-building-o" aria-hidden="true"></i>
+                GirlScript Summer of CodeGirl 2023 (Remote)</span>
+            <span class="date"><i class="fa fa-clock-o" aria-hidden="true"></i>
+                May 2023 - July 2023</span>
+            <span class="date">
+                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                Python, HTML/CSS/JS, Flutter
+            </span>
+            <p class="description">Made a few projects in flutter, web development, and deep learning</p><br>
+        </div>
+    
+        <div class="exp" style="margin-top: 20px;"> <!-- Add margin-top -->
+            <span class="role"><i class="fa fa-laptop" aria-hidden="true"></i>
+                Co-founder</span>
+            <span class="company"><i class="fa fa-building-o" aria-hidden="true"></i>
+                PeacePal</span>
+            <span class="date"><i class="fa fa-clock-o" aria-hidden="true"></i>
+                March 2023</span>
+            <span class="date">
+                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                HTML/CSS/JS, TypeScript, TailwindCSS
+            </span>
+            <p class="description">Mental Health AI chatbot startup focused on assisting people with mental health
+                .<br>
+                Got selected for the first round in Nasscom foundation
+        </div>
+    
+        <div class="exp" style="margin-top: 20px;"> <!-- Add margin-top -->
+            <span class="role"><i class="fa fa-laptop" aria-hidden="true"></i>
+                Business Analyst Quality Assurance (Contract)</span>
+            <span class="company"><i class="fa fa-building-o" aria-hidden="true"></i>
+                CoachBudy</span>
+            <span class="date"><i class="fa fa-clock-o" aria-hidden="true"></i>
+                December 2022 - February 2023</span>
+            <!-- <span class="date">
+                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                Angular, TypeScript, Firebase, MPesa Payments
+            </span> -->
+            <p class="description">Delivered high-quality, perfectly-functioning software and web applications to
+                customers.<br>
+                Ensured the final product satisfied business objectives and user expectations. <br>
+                Made the documentation for both the testing and production site
+        </div>
+    
+        <div class="exp" style="margin-top: 20px;"> <!-- Add margin-top -->
+            <span class="role"><i class="fa fa-laptop" aria-hidden="true"></i>
+                Graphic designer</span>
+            <span class="company"><i class="fa fa-building-o" aria-hidden="true"></i>
+                Burst Bubble Studios, (Remote)</span>
+            <span class="date"><i class="fa fa-clock-o" aria-hidden="true"></i>
+                October 2022- November 2022</span>
+            <span class="date">
+                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                Illustrator, Figma
+            </span>
+            <p class="description">Built assets for games using Adobe Illustrator and Photoshop<br>
+                Monitored, tracked, and reported on feedback and online reviews <br>
+                Made the UI for the game <br>
+                <a href="https://play.google.com/store/apps/details?id=com.BurstBubble.rageGame">Link</a>
+        </div>
+    
+        <div class="exp" style="margin-top: 20px;"> <!-- Add margin-top -->
+            <span class="role"><i class="fa fa-laptop" aria-hidden="true"></i>
+                Consulting Intern</span>
+            <span class="company"><i class="fa fa-building-o" aria-hidden="true"></i>
+                Kalam Solutions</span>
+            <span class="date"><i class="fa fa-clock-o" aria-hidden="true"></i>
+                September 2023</span>
+            <!-- <span class="date">
+                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                Angular, TypeScript, Firebase
+            </span> -->
+            <p class="description">Collected and maintained data on various topics
+                <br>
+                Made reports for many startups</p>
+        </div>
+    
+        <div class="exp" style="margin-top: 20px;"> <!-- Add margin-top -->
+            <span class="role"><i class="fa fa-laptop" aria-hidden="true"></i>
+                Business Development and Public relations</span>
+            <span class="company"><i class="fa fa-building-o" aria-hidden="true"></i>
+                CoachBudy</span>
+            <span class="date"><i class="fa fa-clock-o" aria-hidden="true"></i>
+                July 2022- August 2022</span>
+            <!-- <span class="date">
+                <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                Angular, TypeScript
+            </span> -->
+            <p class="description">Data Entry</p>
+        </div>
+    </div>
+    
+
+    <div class="projects" id="projects">
+        <h2>Notable Projects</h2><span></span>
+        <div class="project-section">
+            <div class="content">
+                <div class="seventh background">
+                </div>
+                <div class="footer">
+                    <h3>Text to emoji</h3>
+                    <p>You can encrypt and decypt emoji to text and vise versa here made with web dev tools</p>
+                    <a href="https://ishanatri133.github.io/text-emoji/" target="_blank" rel="noopener">Check it out</a>
+                </div>
+            </div>
+            <div class="content">
+                <div class="sixth background">
+                </div>
+                <div class="footer">
+                    <h3>Posture Detector</h3>
+                    <p>A p5.js Posture Detector with a filter is a creative program that tracks body posture
+                         using the p5.js library and applies a visual filter to the webcam feed, often for artistic or interactive purposes. </p>
+                    <a href="https://ishanatri133.github.io/posture-detection/" target="_blank" rel="noopener">Check it out</a>
+                </div>
+            </div>
+            <div class="content">
+                <div class="fourth background">
+                </div>
+                <div class="footer">
+                    <h3>Game using JS </h3>
+                    <p>Game made with normal webdev tools</p>
+                    <a href="https://ishanatri133.github.io/game-web-dev/" target="_blank" rel="noopener">Check it out</a>
+                </div>
+            </div>
+            <div class="content">
+                <div class="eighth background">
+                </div>
+                <div class="footer">
+                    <h3>Weather</h3>
+                    <p>A simple Weather Forecast app built using HTML/CSS/JS OpenWeather API & HERE Geocoding
+                        API.</p>
+                    <a href="https://ishanatri133.github.io/weather-website/" target="_blank" rel="noopener">Check it out</a>
+                </div>
+            </div>
+            <div class="content">
+                <div class="top background">
+                </div>
+                <div class="footer">
+                    <h3>MySpace Properties Enquiries</h3>
+                    <p>An in-house web application built for tracking customers’ enquiries on real-estate property to
+                        either buy or sell utilizing Angular, TypeScript, HTML, SASS and Firebase.</p>
+                    <a href="https://customerlist.netlify.app/" target="_blank" rel="noopener">Check it out</a>
+                </div>
+            </div>
+            <div class="content">
+                <div class="second background">
+                </div>
+                <div class="footer">
+                    <h3>Hack Club Kenya Mentors Sign-Up</h3>
+                    <p>Used to sign up and automatically email mentors upon registration. Hack Club Kenya is a
+                        nonprofit network of high school programming clubs to teach beginners to code.</p>
+                    <a href="https://hackclubkenya.netlify.app/" target="_blank" rel="noopener">Check it out</a>
+                </div>
+            </div>
+
+            <div class="content">
+                <div class="third background">
+                </div>
+                <div class="footer">
+                    <h3>Music App using Flutter</h3>
+                    <p>Simple Project using FLutter in which you can listen any song using API keys</p>
+                    <a href="https://github.com/Ishanatri133/music-app-flutter" target="_blank" rel="noopener">Check it out</a>
+                </div>
+            </div>
+            <div class="content">
+                <div class="fifth background">
+                </div>
+                <div class="footer">
+                    <h3>Face Detection</h3>
+                    <p>Project Using Deep learning in which model is trained on two images- masked or not.
+                        Based on that, It can Predict if person in the picture is wearing mask or not
+                    </p>
+                    <a href="https://github.com/Ishanatri133/face-detection" target="_blank" rel="noopener">Check it out</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <footer>
+        <span class="footer_desc">Done with &#10084; by <a class="git_link" href="https://github.com/Ishanatri133"
+                target="_blank" rel="noopener">Ishan Sharma</a></span>
+    </footer>
+</body>
+<script src="js/index.js"></script>
+
+</html>
