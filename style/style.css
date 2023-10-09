@@ -306,9 +306,8 @@ nav ul li a:hover::after {
   background-repeat: no-repeat !important;
   cursor: pointer;
 }
-
 .projects .project-section .content .top {
-  height: 100px;
+  height: 207px;
   width: 100%;
   padding: 10px;
   background-size: cover !important;
@@ -319,7 +318,7 @@ nav ul li a:hover::after {
 }
 
 .projects .project-section .content .second {
-  height: 100px;
+  height: 207px;
   width: 100%;
   padding: 10px;
   background-size: cover !important;
@@ -330,7 +329,7 @@ nav ul li a:hover::after {
 }
 
 .projects .project-section .content .third {
-  height: 100px;
+  height: 207px;
   width: 100%;
   padding: 10px;
   background-size: cover !important;
@@ -341,7 +340,7 @@ nav ul li a:hover::after {
 }
 
 .projects .project-section .content .fourth {
-  height: 100px;
+  height: 207px;
   width: 100%;
   padding: 10px;
   background-size: cover !important;
@@ -350,9 +349,28 @@ nav ul li a:hover::after {
   cursor: pointer;
   border-radius: 5px 5px 0 0;
 }
-
+.projects .project-section .content .fifth {
+  height: 207px;
+  width: 100%;
+  padding: 10px;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  cursor: pointer;
+  border-radius: 5px 5px 0 0;
+}
+.projects .project-section .content .sixth {
+  height: 207px;
+  width: 100%;
+  padding: 10px;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  cursor: pointer;
+  border-radius: 5px 5px 0 0;
+}
 .projects .project-section .content .seventh {
-  height: 100px;
+  height: 207px;
   width: 100%;
   padding: 10px;
   background-size: cover !important;
@@ -362,7 +380,7 @@ nav ul li a:hover::after {
   border-radius: 5px 5px 0 0;
 }
 .projects .project-section .content .eighth {
-  height: 100px;
+  height: 207px;
   width: 100%;
   padding: 10px;
   background-size: cover !important;
@@ -383,6 +401,7 @@ nav ul li a:hover::after {
 .projects .project-section .content .footer > h3 {
   margin: 0;
 }
+
 
 .projects .project-section .content .footer > p {
   font-size: 12px;
